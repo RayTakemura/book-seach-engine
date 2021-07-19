@@ -48,11 +48,12 @@ const resolvers = {
                     { _id: context.user._id },
                     { $addToSet: { savedBooks: args }},
                     { new: true }
-                ); //.populate('savedBooks')
+                );  //.populate('savedBooks')
 
                 return updatedUser;
             }
 
+            
             throw new AuthenticationError('You need to be logged in!');
         },
         removeBook: async (parent, { bookId }, context) => {
