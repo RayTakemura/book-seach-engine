@@ -10,8 +10,7 @@
   * [Test](#test)
   * [Features](#features)
   * [Questions](#questions)
-  * [License](#license)
-    
+
   ## Description
   This App allows users to search books via Google Books API, and save their favorite books to their profile.
 
